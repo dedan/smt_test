@@ -12,7 +12,7 @@ parameter_file = sys.argv[1]
 parameters = build_parameters(parameter_file)
 
 print parameters
-
+label = parameters['sumatra_label']
 output_dir = os.path.join("Data", label)
 with open(os.path.join(output_dir, "mydata.txt"), 'w') as fp:
     fp.write('output_data')
