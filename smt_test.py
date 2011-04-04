@@ -13,6 +13,6 @@ parameters = build_parameters(parameter_file)
 
 print parameters
 
-# output_dir = os.path.join("Data", label)
-# with open(os.path.join(output_dir, "mydata.txt"), 'w') as fp:
-#     fp.write(output_data)
+output_dir = os.path.join("Data", label)
+with open(os.path.join(output_dir, "mydata.txt"), 'w') as fp:
+    fp.write('output_data')
